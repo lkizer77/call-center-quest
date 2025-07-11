@@ -1,0 +1,19 @@
+function showXpGain(amount) {
+  const xpContainer = document.getElementById('xp-container');
+  const xpPopup = document.createElement('div');
+  xpPopup.className = 'xp-popup';
+  xpPopup.textContent = `+${amount} XP`;
+
+  xpContainer.appendChild(xpPopup);
+
+  setTimeout(() => {
+    xpPopup.remove();
+  }, 1200); // Match animation duration
+}
+
+// Example usage:
+document.querySelectorAll('.choice-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    showXpGain(10); // You can customize XP amount based on answer
+  });
+});

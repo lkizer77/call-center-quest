@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Call Center Quest: Benefits Edition</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>📞 Call Center Quest: Benefits Edition</h1>
+    <p class="subtitle">Train. Play. Level Up.</p>
+  </header>
+
+  <section id="player-info">
+    <p><strong>Level:</strong> Novice</p>
+    <p><strong>Jacket:</strong> Red</p>
+    <p><strong>XP:</strong> 0</p>
+  </section>
+
+  <main id="game-area">
+    <div id="scenario-box">
+      <h2>Incoming Call...</h2>
+      <p id="scenario-text">Welcome to your first day! A caller is asking about their health benefits. What do you say?</p>
+      <div id="choices">
+        <button class="choice-btn">Ask for their employee ID</button>
+        <button class="choice-btn">Explain all benefits at once</button>
+        <button class="choice-btn">Transfer the call immediately</button>
+      </div>
+    </div>
+  </main>
+
+  <nav id="mini-games">
+    <h3>Mini-Games & Quizzes</h3>
+    <button>☕ Coffee Break</button>
+    <button>🍳 Lunch Time Chef</button>
+    <button>🧘 Self Care</button>
+    <button>📚 Name That Benefit</button>
+    <button>✅ Keep Compliant</button>
+  </nav>
+
+  <footer>
+    <p>&copy; 2025 Call Center Quest. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

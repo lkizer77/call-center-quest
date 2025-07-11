@@ -1,0 +1,22 @@
+# 📞 Call Center Quest: Benefits Edition
+
+**Call Center Quest** is a browser-based role-playing game designed to train and engage Customer Service Representatives (CSRs) in a fun, interactive way. Players take on the role of a CSR in training, navigating simulated benefit calls, quizzes, and mini-games to level up their skills and knowledge.
+
+---
+
+## 🎮 Game Features
+
+- 🧑‍💼 **Role Play Simulation**: Handle realistic benefit-related calls and make decisions to progress.
+- 🧠 **Knowledge Quizzes**: Test your understanding with "Name That Benefit" and "Keep Compliant".
+- ☕ **Mini-Games**: Take a break with Coffee Break, Lunch Time Chef, and Self-Care activities.
+- 🧥 **Level Progression**: Start as a Novice in a red jacket and rise through the ranks to Expert.
+- ✨ **Animated UI**: Cartoon-style characters, XP gain effects, and interactive buttons.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone or Download the Repository
+
+```bash
+git clone https://github.com/yourusername/call-center-quest.git
